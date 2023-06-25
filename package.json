@@ -1,0 +1,44 @@
+{
+  "name": "@chatbot-ui/core",
+  "version": "1.0.12",
+  "description": "Core library for the Chatbot UI project",
+  "homepage": "https://github.com/jorge-menjivar/chatbot-ui-core#readme",
+  "repository": "https://github.com/jorge-menjivar/chatbot-ui-core",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "react",
+    "nodejs",
+    "nextjs",
+    "authentication",
+    "database",
+    "chatbot",
+    "chatbot-ui",
+    "types",
+    "gpt-4",
+    "chat-gpt",
+    "gpt-3",
+    "chatgpt"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "dev": "tsc -w --project tsconfig.json",
+    "clean": "rm -rf database types utils auth.d.ts auth.js index.d.ts index.js"
+  },
+  "author": "Jorge Menjivar <jorgemenjivar1997@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "next": "^13.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/node": "^20.1.3",
+    "@types/react": "^18.2.6",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0"
+  }
+}
